@@ -12,7 +12,8 @@
                 <th scope="col">ID</th>
                 <th scope="col">Nama</th>
                 <th scope="col">Mata Kuliah</th>
-                <th scope="col">Alamat</th>
+                <th scope="col">Hari</th>
+                <th scope="col">Aksi</th>
               </tr>
             </thead>
             <tbody>
@@ -21,7 +22,7 @@
                 <th scope="row">{{$dsn->id_dosen}}</th>
                 <td>{{$dsn->nama}}</td>
                 <td>{{$dsn->mata_kuliah}}</td>
-                <td>{{$dsn->alamat}}</td>
+                <td>{{$dsn->jadwal_hari}}</td>
                 <td>
                     <button type="button" class="btn btn-primary">Update</button>
                     <button type="button" class="btn btn-danger">Hapus</button>

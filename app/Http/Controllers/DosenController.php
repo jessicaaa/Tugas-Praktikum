@@ -15,8 +15,8 @@ class DosenController extends Controller
         $dosen = Dosen::all();
         return view('dosen', [
             'dosen' => $dosen
-        ]);
-
+        ]); 
+        return view('dosen');
     }
 
     /**
